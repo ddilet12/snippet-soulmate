@@ -9,6 +9,7 @@ import fries from "@/assets/fries.jpg";
 import drinks from "@/assets/drinks.jpg";
 import familyCombo from "@/assets/family-combo.jpg";
 import hotdog from "@/assets/hotdog.jpg";
+import hotdogBeef from "@/assets/hotdog-beef.jpg.asset.json";
 import twisterImg from "@/assets/twister.jpg";
 import boxmasterImg from "@/assets/boxmaster.jpg";
 import kidsBoxImg from "@/assets/kids-box.jpg";
@@ -347,7 +348,7 @@ export const products: Product[] = [
     name: "ХОТ-ДОГ ЕТПЕН",
     price: 990,
     category: "hotdog",
-    image: hotdog,
+    image: hotdogBeef.url,
     items: ["Говяжий хот-дог"],
   },
   {
