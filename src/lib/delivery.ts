@@ -8,7 +8,7 @@ export type DeliveryDistrict = {
 
 export const deliveryDistricts: DeliveryDistrict[] = [
   { id: "kala", name: "Қала", price: 600 },
-  { id: "aray", name: "Арай", price: 700 },
+  { id: "aray", name: "Арай 1", price: 700 },
   { id: "aray2", name: "Арай 2", price: 800 },
   { id: "tenge", name: "Тенге", price: 1000 },
   { id: "atp", name: "АТП", price: 1000 },
