@@ -313,7 +313,7 @@ export const products: Product[] = [
     price: 2450,
     category: "burger",
     image: burgerChico,
-    items: ["Double бургер"],
+    items: ["2 котлета "],
   },
   {
     id: "twister",
