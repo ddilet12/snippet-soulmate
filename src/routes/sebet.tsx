@@ -99,7 +99,7 @@ function DistrictSelect({
 function CartPage() {
   const { items, setQty, remove, count, subtotal } = useCart();
   const [fulfillment, setFulfillment] = useState<"delivery" | "pickup">("delivery");
-  const [address, setAddress] = useState("");
+  const [address, setAddress] = useState("Жаңаөзен");
   const [districtId, setDistrictId] = useState<string | undefined>(undefined);
   const [error, setError] = useState("");
 
