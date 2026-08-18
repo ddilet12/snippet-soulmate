@@ -231,7 +231,7 @@ function CartPage() {
               <h3 className="text-xs font-black uppercase tracking-wide">Жеткізу мекенжайы</h3>
               <div className="space-y-1.5">
                 <label htmlFor="delivery-address" className="text-xs font-semibold text-muted-foreground">
-                  Введите адрес доставки
+                  Введите адрес доставки кв, дом, улица{"\u00a0"}
                 </label>
                 <input
                   id="delivery-address"
