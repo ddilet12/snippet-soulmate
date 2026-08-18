@@ -1,5 +1,6 @@
 import comboHotbox from "@/assets/combo-hotbox.jpg";
 import hotdogFrench from "@/assets/hotdog-french.jpg.asset.json";
+import legsBucket from "@/assets/legs-bucket.jpg.asset.json";
 import chicken from "@/assets/chicken.jpg";
 import burger from "@/assets/burger.jpg";
 import burgerChico from "@/assets/burger-chico.jpg";
@@ -404,7 +405,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 1 ДАНА",
     price: 500,
     category: "chicken",
-    image: chicken,
+    image: legsBucket.url,
     items: ["Ножки 1 дана"],
   },
   {
@@ -412,7 +413,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 3 ДАНА",
     price: 1550,
     category: "chicken",
-    image: chicken,
+    image: legsBucket.url,
     items: ["Ножки 3 дана"],
   },
   {
@@ -420,7 +421,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 10 ДАНА",
     price: 4590,
     category: "chicken",
-    image: chicken,
+    image: legsBucket.url,
     items: ["Ножки 10 дана"],
   },
   {
