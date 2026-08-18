@@ -354,7 +354,7 @@ export const products: Product[] = [
     name: "ХОТ-ДОГ (ФРЕНЧ)",
     price: 990,
     category: "hotdog",
-    image: hotdog,
+    image: hotdogFrench.url,
     items: ["Френч хот-дог"],
   },
 
