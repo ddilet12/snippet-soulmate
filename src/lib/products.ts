@@ -1,4 +1,5 @@
 import comboHotbox from "@/assets/combo-hotbox.jpg";
+import hotdogFrench from "@/assets/hotdog-french.jpg.asset.json";
 import chicken from "@/assets/chicken.jpg";
 import burger from "@/assets/burger.jpg";
 import burgerChico from "@/assets/burger-chico.jpg";
@@ -353,7 +354,7 @@ export const products: Product[] = [
     name: "ХОТ-ДОГ (ФРЕНЧ)",
     price: 990,
     category: "hotdog",
-    image: hotdog,
+    image: hotdogFrench.url,
     items: ["Френч хот-дог"],
   },
 
