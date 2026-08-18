@@ -1,5 +1,5 @@
 import comboHotbox from "@/assets/combo-hotbox.jpg";
-import hotdogFrench from "@/assets/hotdog-french.jpg.asset.json";
+import hotdogFrench from "@/assets/hotdog-french-new.jpg.asset.json";
 import legsBucket from "@/assets/legs-bucket.jpg.asset.json";
 import chicken from "@/assets/chicken.jpg";
 import burger from "@/assets/burger.jpg";
