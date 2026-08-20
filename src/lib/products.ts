@@ -44,6 +44,15 @@ import juniorStripsFries from "@/assets/junior-strips-fries.jpg";
 import sauceCheese from "@/assets/sauce-cheese.jpg";
 import sauceBbq from "@/assets/sauce-bbq.jpg";
 import sauceKetchup from "@/assets/sauce-ketchup.jpg";
+import komboTrio from "@/assets/kombo-trio.jpg.asset.json";
+import komboHotBox from "@/assets/kombo-hot-box.jpg.asset.json";
+import komboBox from "@/assets/kombo-box.jpg.asset.json";
+import komboClassic from "@/assets/kombo-classic.jpg.asset.json";
+import komboPremium from "@/assets/kombo-premium.jpg.asset.json";
+import komboDouble from "@/assets/kombo-double.jpg.asset.json";
+import komboBanBox from "@/assets/kombo-ban-box.jpg.asset.json";
+import komboGold from "@/assets/kombo-gold.jpg.asset.json";
+import komboBoom from "@/assets/kombo-boom.jpg.asset.json";
 
 export const images = {
   comboHotbox,
@@ -103,15 +112,14 @@ export const products: Product[] = [
     name: "КОМБО TRIO",
     price: 8290,
     category: "combo",
-    image: familyCombo,
     items: ["Қанаттар 15 дана", "Твистер 3 дана", "Coca-Cola 1 л", "Соус 2 дана"],
+    image: komboTrio.url,
   },
   {
     id: "kombo-hot-box",
     name: "КОМБО HOT BOX",
     price: 9890,
     category: "combo",
-    image: comboHotbox,
     items: [
       "Қанаттар 20 дана",
       "Пицца Пепперони",
@@ -119,22 +127,23 @@ export const products: Product[] = [
       "Фри M - 2 дана",
       "Соус 2 дана",
     ],
+    image: komboHotBox.url,
   },
   {
     id: "kombo-classic",
     name: "КОМБО CLASSIC",
     price: 10990,
     category: "combo",
-    image: heroCombo,
     items: ["Пицца Маргарита", "Қанаттар 25 дана", "Coca-Cola 2 л", "Фри L", "Соус 2 дана"],
+    image: komboClassic.url,
   },
   {
     id: "kombo-box",
     name: "КОМБО BOX",
     price: 6290,
     category: "combo",
-    image: chicken,
     items: ["Қанаттар 10 дана", "Бокс Мастер 2 дана", "Coca-Cola 1 л", "Соус 2 дана"],
+    image: komboBox.url,
   },
   {
     id: "kids-box",
@@ -149,28 +158,27 @@ export const products: Product[] = [
     name: "КОМБО DOUBLE",
     price: 6290,
     category: "combo",
-    image: burger,
     items: ["Double - 2 дана", "Фри M - 2 дана", "Coca-Cola 0,5 л - 2 дана", "Соус - 2 дана"],
+    image: komboDouble.url,
   },
   {
     id: "kombo-premium",
     name: "КОМБО PREMIUM",
     price: 6490,
     category: "combo",
-    image: heroCombo,
     items: [
       "Етпен бургер - 2 дана",
       "Стрипсы - 10 дана",
       "Coca-Cola 0,5 л - 2 дана",
       "Соус - 2 дана",
     ],
+    image: komboPremium.url,
   },
   {
     id: "kombo-gold",
     name: "КОМБО GOLD",
     price: 12290,
     category: "combo",
-    image: familyCombo,
     items: [
       "Қанаттар 25 дана",
       "Аяқтар 10 дана",
@@ -178,13 +186,13 @@ export const products: Product[] = [
       "Coca-Cola 2 л",
       "Соус 3 дана",
     ],
+    image: komboGold.url,
   },
   {
     id: "kombo-ban-box",
     name: "КОМБО BAN BOX",
     price: 9790,
     category: "combo",
-    image: comboHotbox,
     items: [
       "Бургер етпен - 2 дана",
       "Қанаттар 15 дана",
@@ -192,6 +200,7 @@ export const products: Product[] = [
       "Coca-Cola 2 л",
       "Соус - 2 дана",
     ],
+    image: komboBanBox.url,
   },
   {
     id: "kombo-plus",
@@ -206,8 +215,8 @@ export const products: Product[] = [
     name: "КОМБО BOOM",
     price: 14550,
     category: "combo",
-    image: heroCombo,
     items: ["Қанаттар 50 дана", "Пицца Пепперони", "Coca-Cola 2 л", "Соус 3 дана"],
+    image: komboBoom.url,
   },
 
   // ================= ПИЦЦАЛАР =================
