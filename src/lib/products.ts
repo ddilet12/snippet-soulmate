@@ -53,6 +53,8 @@ import komboDouble from "@/assets/kombo-double.jpg.asset.json";
 import komboBanBox from "@/assets/kombo-ban-box.jpg.asset.json";
 import komboGold from "@/assets/kombo-gold.jpg.asset.json";
 import komboBoom from "@/assets/kombo-boom.jpg.asset.json";
+import komboPlus from "@/assets/kombo-plus.jpg.asset.json";
+import komboFriends from "@/assets/kombo-friends.jpg.asset.json";
 
 export const images = {
   comboHotbox,
@@ -97,7 +99,6 @@ export const products: Product[] = [
     name: "КОМБО FRIENDS",
     price: 8790,
     category: "combo",
-    image: comboHotbox,
     items: [
       "Қанаттар 15 дана",
       "Аяқтар 5 дана",
@@ -106,6 +107,7 @@ export const products: Product[] = [
       "Фри M",
       "Соус 3 дана",
     ],
+    image: komboFriends.url,
   },
   {
     id: "kombo-trio",
@@ -207,8 +209,8 @@ export const products: Product[] = [
     name: "КОМБО PLUS",
     price: 2990,
     category: "combo",
-    image: burger,
     items: ["Бургер", "Coca-Cola 0,5 л", "Фри M", "Соус"],
+    image: komboPlus.url,
   },
   {
     id: "kombo-boom",
