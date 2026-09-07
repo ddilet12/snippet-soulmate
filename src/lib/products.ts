@@ -12,6 +12,7 @@ import hotdog from "@/assets/hotdog.jpg";
 import hotdogBeef from "@/assets/hotdog-beef.jpg";
 import twisterImg from "@/assets/twister.jpg";
 import boxmasterImg from "@/assets/boxmaster.jpg";
+import championImg from "@/assets/champion.jpg";
 import kidsBoxImg from "@/assets/kids-box.jpg";
 import heroCombo from "@/assets/hero-combo.jpg";
 import pizzaCezar from "@/assets/pizza-cezar.jpg";
@@ -343,6 +344,14 @@ export const products: Product[] = [
     category: "tiskebasar",
     image: boxmasterImg,
     items: ["Boxmaster"],
+  },
+  {
+    id: "champion",
+    name: "CHAMPION",
+    price: 1590,
+    category: "tiskebasar",
+    image: championImg,
+    items: ["CHAMPION"],
   },
 
   // ================= ХОТ-ДОГТАР =================
