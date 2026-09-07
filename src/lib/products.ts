@@ -1,6 +1,6 @@
 import comboHotbox from "@/assets/combo-hotbox.jpg";
-import hotdogFrench from "@/assets/hotdog-french-v4.jpg.asset.json";
-import legsBucket from "@/assets/legs-bucket.jpg.asset.json";
+import hotdogFrench from "@/assets/hotdog-french-v4.jpg";
+import legsBucket from "@/assets/legs-bucket.jpg";
 import chicken from "@/assets/chicken.jpg";
 import burger from "@/assets/burger.jpg";
 import burgerChico from "@/assets/burger-chico.jpg";
@@ -9,7 +9,7 @@ import fries from "@/assets/fries.jpg";
 import drinks from "@/assets/drinks.jpg";
 import familyCombo from "@/assets/family-combo.jpg";
 import hotdog from "@/assets/hotdog.jpg";
-import hotdogBeef from "@/assets/hotdog-beef.jpg.asset.json";
+import hotdogBeef from "@/assets/hotdog-beef.jpg";
 import twisterImg from "@/assets/twister.jpg";
 import boxmasterImg from "@/assets/boxmaster.jpg";
 import kidsBoxImg from "@/assets/kids-box.jpg";
@@ -44,17 +44,17 @@ import juniorStripsFries from "@/assets/junior-strips-fries.jpg";
 import sauceCheese from "@/assets/sauce-cheese.jpg";
 import sauceBbq from "@/assets/sauce-bbq.jpg";
 import sauceKetchup from "@/assets/sauce-ketchup.jpg";
-import komboTrio from "@/assets/kombo-trio.jpg.asset.json";
-import komboHotBox from "@/assets/kombo-hot-box.jpg.asset.json";
-import komboBox from "@/assets/kombo-box.jpg.asset.json";
-import komboClassic from "@/assets/kombo-classic.jpg.asset.json";
-import komboPremium from "@/assets/kombo-premium.jpg.asset.json";
-import komboDouble from "@/assets/kombo-double.jpg.asset.json";
-import komboBanBox from "@/assets/kombo-ban-box.jpg.asset.json";
-import komboGold from "@/assets/kombo-gold.jpg.asset.json";
-import komboBoom from "@/assets/kombo-boom.jpg.asset.json";
-import komboPlus from "@/assets/kombo-plus.jpg.asset.json";
-import komboFriends from "@/assets/kombo-friends.jpg.asset.json";
+import komboTrio from "@/assets/kombo-trio.jpg";
+import komboHotBox from "@/assets/kombo-hot-box.jpg";
+import komboBox from "@/assets/kombo-box.jpg";
+import komboClassic from "@/assets/kombo-classic.jpg";
+import komboPremium from "@/assets/kombo-premium.jpg";
+import komboDouble from "@/assets/kombo-double.jpg";
+import komboBanBox from "@/assets/kombo-ban-box.jpg";
+import komboGold from "@/assets/kombo-gold.jpg";
+import komboBoom from "@/assets/kombo-boom.jpg";
+import komboPlus from "@/assets/kombo-plus.jpg";
+import komboFriends from "@/assets/kombo-friends.jpg";
 
 export const images = {
   comboHotbox,
@@ -107,7 +107,7 @@ export const products: Product[] = [
       "Фри M",
       "Соус 3 дана",
     ],
-    image: komboFriends.url,
+    image: komboFriends,
   },
   {
     id: "kombo-trio",
@@ -115,7 +115,7 @@ export const products: Product[] = [
     price: 8290,
     category: "combo",
     items: ["Қанаттар 15 дана", "Твистер 3 дана", "Coca-Cola 1 л", "Соус 2 дана"],
-    image: komboTrio.url,
+    image: komboTrio,
   },
   {
     id: "kombo-hot-box",
@@ -129,7 +129,7 @@ export const products: Product[] = [
       "Фри M - 2 дана",
       "Соус 2 дана",
     ],
-    image: komboHotBox.url,
+    image: komboHotBox,
   },
   {
     id: "kombo-classic",
@@ -137,7 +137,7 @@ export const products: Product[] = [
     price: 10990,
     category: "combo",
     items: ["Пицца Маргарита", "Қанаттар 25 дана", "Coca-Cola 2 л", "Фри L", "Соус 2 дана"],
-    image: komboClassic.url,
+    image: komboClassic,
   },
   {
     id: "kombo-box",
@@ -145,7 +145,7 @@ export const products: Product[] = [
     price: 6290,
     category: "combo",
     items: ["Қанаттар 10 дана", "Бокс Мастер 2 дана", "Coca-Cola 1 л", "Соус 2 дана"],
-    image: komboBox.url,
+    image: komboBox,
   },
   {
     id: "kids-box",
@@ -161,7 +161,7 @@ export const products: Product[] = [
     price: 6290,
     category: "combo",
     items: ["Double - 2 дана", "Фри M - 2 дана", "Coca-Cola 0,5 л - 2 дана", "Соус - 2 дана"],
-    image: komboDouble.url,
+    image: komboDouble,
   },
   {
     id: "kombo-premium",
@@ -174,7 +174,7 @@ export const products: Product[] = [
       "Coca-Cola 0,5 л - 2 дана",
       "Соус - 2 дана",
     ],
-    image: komboPremium.url,
+    image: komboPremium,
   },
   {
     id: "kombo-gold",
@@ -188,7 +188,7 @@ export const products: Product[] = [
       "Coca-Cola 2 л",
       "Соус 3 дана",
     ],
-    image: komboGold.url,
+    image: komboGold,
   },
   {
     id: "kombo-ban-box",
@@ -202,7 +202,7 @@ export const products: Product[] = [
       "Coca-Cola 2 л",
       "Соус - 2 дана",
     ],
-    image: komboBanBox.url,
+    image: komboBanBox,
   },
   {
     id: "kombo-plus",
@@ -210,7 +210,7 @@ export const products: Product[] = [
     price: 2990,
     category: "combo",
     items: ["Бургер", "Coca-Cola 0,5 л", "Фри M", "Соус"],
-    image: komboPlus.url,
+    image: komboPlus,
   },
   {
     id: "kombo-boom",
@@ -218,7 +218,7 @@ export const products: Product[] = [
     price: 14550,
     category: "combo",
     items: ["Қанаттар 50 дана", "Пицца Пепперони", "Coca-Cola 2 л", "Соус 3 дана"],
-    image: komboBoom.url,
+    image: komboBoom,
   },
 
   // ================= ПИЦЦАЛАР =================
@@ -359,7 +359,7 @@ export const products: Product[] = [
     name: "ХОТ-ДОГ ЕТПЕН",
     price: 990,
     category: "hotdog",
-    image: hotdogBeef.url,
+    image: hotdogBeef,
     items: ["Говяжий хот-дог"],
   },
   {
@@ -367,7 +367,7 @@ export const products: Product[] = [
     name: "ХОТ-ДОГ (ФРЕНЧ)",
     price: 990,
     category: "hotdog",
-    image: hotdogFrench.url,
+    image: hotdogFrench,
     items: ["Френч хот-дог"],
   },
 
@@ -417,7 +417,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 1 ДАНА",
     price: 500,
     category: "chicken",
-    image: legsBucket.url,
+    image: legsBucket,
     items: ["Ножки 1 дана"],
   },
   {
@@ -425,7 +425,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 3 ДАНА",
     price: 1550,
     category: "chicken",
-    image: legsBucket.url,
+    image: legsBucket,
     items: ["Ножки 3 дана"],
   },
   {
@@ -433,7 +433,7 @@ export const products: Product[] = [
     name: "АЯҚТАР 10 ДАНА",
     price: 4590,
     category: "chicken",
-    image: legsBucket.url,
+    image: legsBucket,
     items: ["Ножки 10 дана"],
   },
   {
