@@ -353,7 +353,7 @@ export const products: Product[] = [
   {
     id: "champion",
     name: "CHAMPION",
-    price: 1590,
+    price: 1890,
     category: "tiskebasar",
     image: championImg,
     items: ["CHAMPION"],
