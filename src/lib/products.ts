@@ -92,7 +92,7 @@ export const categories = [
   { id: "pizza", name: "Пиццалар" },
   { id: "burger", name: "Бургерлер" },
   { id: "hotdog", name: "Хот-догтар" },
-  { id: "tiskebasar", name: "Тіскебасар" },
+  { id: "tiskebasar", name: "ТВИСТЕР&BOX MASTER" },
   { id: "chicken", name: "Чикендер" },
   { id: "drinks", name: "Сусындар / Drinks" },
   { id: "sauces", name: "Соустар" },
