@@ -231,7 +231,7 @@ export const products: Product[] = [
   {
     id: "pizza-cezar",
     name: "ЦЕЗАРЬ",
-    price: 2590,
+    price: 3290,
     category: "pizza",
     image: pizzaCezar,
     items: ["Пицца Цезарь"],
